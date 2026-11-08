@@ -1,0 +1,19 @@
+/*!
+  * Tailwind CSS v3.4.1
+  * Copyright © 2024 Tailwind Labs, Inc.
+  * Available at https://tailwindcss.com
+  * Licensed under MIT License.
+  *
+  * Portions of this package are derived from normalize.css, animate.css and esrever.
+  */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+  }
+}
